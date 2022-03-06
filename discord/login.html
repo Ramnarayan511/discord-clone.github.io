@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+
+    <div class="main-nav">
+        <a href="index.html" class="logo">
+            <img src="./assets/images/logo.svg" alt="">
+        </a>
+    </div>
+    <div class="login-box">
+      <div class="login-ic-box">
+        <div class="sol-box">
+          <h2>Welcome back!</h2>
+          <span>We're so excited to see you again!</span>
+          <form class="form-box">
+            <h5>EMAIL OR PHONE NUMBER</h5>
+            <input type="text" placeholder="Enter your Email" id="username">
+
+            <h5>PASSWORD</h5>
+            <input type="password" placeholder="**********" id="password">
+
+            <a href="#" onclick="message()"><div class="unuttum" >Forgot your password?</div></a>
+
+            <br>
+
+            <button class="login-button" onclick="validate()">Login</button>
+            <span class="iht">Need an account?
+              <font class="unuttum">Register</font></span>
+          </form>
+        </div>
+
+        <div class="sag-box">
+          <img src="barkod.png" />
+
+          <h2>Login with QR code</h2>
+          <div>
+            Scan this with the 
+            <strong>Discord mobile app</strong> to log in instantly.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="login.js"></script>
+  </body>
+</html>
